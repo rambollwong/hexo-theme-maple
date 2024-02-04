@@ -57,9 +57,9 @@ giscus:
 
 # maple
 maple:
-  enable: false
+  enable: true
   # fall leaf count
-  count: 10
+  count: 20
   # 0-1
   speed: 0.5
 
