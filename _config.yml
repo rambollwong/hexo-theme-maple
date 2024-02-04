@@ -1,8 +1,8 @@
 # Header
 nav:
   Posts: /archives
-  # Categories: /category
-  # Tags: /tag
+  Categories: /categories
+  Tags: /tags
 
 # favicon
 favicon: /favicon.png
@@ -41,12 +41,19 @@ mermaid:
 
 # giscus
 giscus:
-  enable:
-  repo:
-  repo_id:
-  category:
-  category_id:
-  mapping:
+  enable: true
+  repo: rambollwong/rambollwong.github.io
+  repo_id: R_kgDOLM5pOQ
+  category: BlogComments
+  category_id: DIC_kwDOLM5pOc4Cc7R2
+  # Available values: pathname | url | title | og:title
+  mapping: pathname
+  # Available values: en | zh-CN
+  lang: en
+  # Place the comment box above the comments
+  input_position: bottom
+  # Load the comments lazily
+  loading: lazy
 
 # maple
 maple:
